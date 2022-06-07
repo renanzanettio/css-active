@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(#91f2ff, #346e75);
+}
+
+#rotate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid #ff000099;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+#rotate:active{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(180deg);
+    border: 20px solid #ff000099 ;
+    max-width: 250px;
+    min-width: 250px;
+}
+
